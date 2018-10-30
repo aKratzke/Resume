@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        
+        <a href="Blog.html">Go to Blog Cheat Sheet</a>
+        <hr>
+        <!--Headings-->
+        <h1>Travis Lewis</h1>
+        <h2>My Super Resume</h2>
+        <h3>My Super Resume</h3>
+        <h4>My Super Resume</h4>
+
+        <a href="Profile-Picture.gif">
+        <img src="Profile-Picture.gif" alt="My Portrait Image" width="1000">
+        </a>
+
+        <!--Paragraph-->
+        <p>
+            I am a working <strong>artist</strong> and <strong>adjunct professor</strong>. as an artist,
+            the objects I make focus on the visual language of materials
+            and processes. As a professor, I teach art foundations classes
+            (color theory, design, drawing). My portfolio can be seen at
+            <a href="http://tdlewis.myportfolio.com" target="_blank">tdlewis.myportfolio.com</a> 
+        </p>
+
+        <!--Lists-->
+        <ul> <!--unordered list-->
+            <li>The Art Institutes of Michigan (Novi)</li>
+            <li>Rochester College</li>
+            <li>The Art Institutes of Michigan (Troy)</li>
+            <li>Troy Christian Chapel</li>
+            
+        </ul>
+
+        <ol> <!--ordered list-->
+            <li>The Art Institutes of Michigan (Novi)</li>
+            <li>Rochester College</li>
+            <li>The Art Institutes of Michigan (Troy)</li>
+            <li>Troy Christian Chapel</li>
+            
+        </ol>
+
+        <!--Table-->
+        <table>
+            <thead> <!--Never use table for your layout, that's what CSS is for-->
+              <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Cell</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Travis</td>
+                    <td>travis.of.lewis@gmail.com</td>
+                    <td>248.606.5278</td>
+                </tr>
+                <tr>
+                    <td>Jim</td>
+                    <td>Jim.or.Wilkins@gmail.com</td>
+                    <td>234.567.8904</td>
+                </tr>
+                <tr>
+                    <td>Steve</td>
+                    <td>Steve@gmail.com</td>
+                    <td>878.353.9855</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <!--Forms-->
+        <!--With html we can create the appearance of a form but NOT the funtionality-->
+        <form action="process.php" method+"POST">
+            <br>
+            <hr>
+            <br>
+
+            <div>  <!--adding a <div> around your label makes the label a block element
+                this allows you to stack your elements instead of have one after the other-->
+            <label>First Name</label>
+            <input type="text" name="first-name">
+            </div>
+
+            <br>
+
+            <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" 
+            value="Enter Last Name">
+            </div>
+
+            <br>
+
+            <label>Social Security</label> <!--without the <div> tag the form will be one after the other-->
+            <input type="number" name="Social">
+
+            <label>Date of Birth</label>
+            <input type="date" name="date">
+
+            <label>Email</label>
+            <input type="email" name="email">
+            
+            <div>
+            <br>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            </div>
+            
+
+            <br>
+
+                <div>
+                    <label>Gender</label>
+                    <select name="gender">
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+           
+                <br>
+                <input type="submit" name="submit" value="Submit">
+
+
+
+        </form>
+        <!--Button-->
+        <br>
+        <button>Click Me</button>
+
+        <div style="margin-top:500px"></div>
+
+         
+
+
+
+    </body>
+</html>

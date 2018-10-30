@@ -1,0 +1,162 @@
+body{
+    background-color:white;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    /*same as above*/
+    font:normal 16px arial, Helvetica, sans-sarif;
+
+    line-height:1.6em;
+    margin:0;
+}
+
+
+a{ /*remember that the "a" represents LINKS.  And will apply to all links*/
+    text-decoration: none;
+    color:black; /*color of the text. If you just type color, the program assumes text*/
+}
+
+a:hover{
+    color:green;
+}
+
+/* this changes the color when you click on the link*/
+a:active{
+    color:green;
+}
+
+/*this comand turns the link a particular color once you've visited it
+a:visited{
+    color:black;
+}*/
+
+
+
+
+.container{
+    width:80%;
+    margin:auto; /*this margin:auto sets the with:500 all around the text*/
+}
+
+.button{
+    background-color:rgb(15, 25, 70);
+    color:#fff;
+    padding:10px 15px;
+    border:blue;
+}
+
+.button:hover{
+    background:grey;
+    color:lightgrey;
+}
+
+.box-1{
+    background-color:rgb(196, 198, 199);
+    color:white;
+    border-right:5px black solid;
+    border-left:5px black solid;
+    border-top:5px black solid;
+    padding:10px;
+    margin-bottom:10px;
+
+}
+
+.box-2{
+    background-color:rgb(196, 198, 199);
+    color:white;
+    border-right:5px black solid;
+    border-left:5px black solid;
+    padding:10px;
+    margin-bottom:10px;
+
+}
+
+.box-3{
+    background-color:rgb(196, 198, 199);
+    color:white;
+    border-right:5px black solid;
+    border-left:5px black solid;
+    border-bottom:5px black solid;
+    padding:10px;
+    margin-bottom:10px;
+
+}
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.box-2 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.box-3 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px; /*this gives your box curved edges*/
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding:0;
+    padding-left:40px; /*here I'm pushing the checkMarks over*/
+    list-style:square; /*changes the bullet points to squares*/
+    list-style:none; /*getts rid of bullet points*/
+}
+
+.categories li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../images/checkMark.png'); /*here I'm inserting the checkMarks*/
+}
+
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"]{ /*the "input[type="text"]" comment specifies that the width should
+                                   only apply to the "text" box inputs and not all inputs*/
+padding:8px;
+width:100%
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing:border-box; /*this takes sizing into account and automatically sizes things*/
+}
+
